@@ -129,6 +129,8 @@ tools_to_install=(
     "kali-tools-top10"
     "kali-tools-web"
     "nikto"
+    "smbclient"
+    "smbmap"
 )
 
 # installs all the tools with apt
