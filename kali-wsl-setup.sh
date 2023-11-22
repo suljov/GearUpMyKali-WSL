@@ -8,10 +8,9 @@ clear
 echo "The script will now update the system and download tools"
 sleep 5
 
-sudo apt update -y
+sudo apt update
 sudo apt upgrade -y
 sudo apt full-upgrade -y 
-sudo apt dist-upgrade -y
 
 sudo apt install nmap
 
@@ -105,9 +104,6 @@ mv pspy32 pspy64 system/linux/
 sudo apt install --only-upgrade firefox-esr
 
 
-sudo apt update -y
-sudo apt upgrade -y
-sudo apt install sublime-text
 
 
 
@@ -138,16 +134,12 @@ tools_to_install=(
 
 # installs all the tools with apt
 sudo apt install -y "${tools_to_install[@]}"
-sudo apt update -y
-sudo apt upgrade -y
+
 
 
 
 sudo apt install apt-transport-https
-sudo apt update -y
-sudo apt upgrade -y
-sudo apt full-upgrade -y 
-sudo apt dist-upgrade -y
+
 
 # extra command to make sure autorecon works
 sudo apt install seclists curl dnsrecon enum4linux feroxbuster gobuster impacket-scripts nbtscan nikto nmap onesixtyone oscanner redis-tools smbclient smbmap snmp sslscan sipvicious tnscmd10g whatweb wkhtmltopdf
@@ -247,10 +239,7 @@ sudo rm -r /opt/linpeas/
 sudo rm -r /opt/mitm6/
 sudo rm -r /opt/winpeas/
 
-clear
 
-sudo apt update -y
-sudo apt upgrade -y
 
 clear
 
@@ -260,11 +249,8 @@ go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 
 clear
 
-apt --fix-broken install
-sudo apt update -y
-sudo apt upgrade -y
-sudo apt full-upgrade -y 
-sudo apt dist-upgrade -y
+
+
 
 sudo chown -R $username:$username tools
 
