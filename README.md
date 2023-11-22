@@ -98,17 +98,16 @@ Over the tools that is already installed on Kali Linux the script will install t
 51. jwt_tool
 52. lfimap
 53. kali-linux-default
-54. kali-linux-headless
-55. kali-tools-database
-56. kali-tools-information-gathering
-57. kali-tools-passwords
-58. msfpc
-59. assetfinder
-60. kali-tools-post-exploitation
-61. set
-62. kali-tools-top10
-63. kali-tools-web
-64. nmap
+54. kali-tools-database
+55. kali-tools-information-gathering
+56. kali-tools-passwords
+57. msfpc
+58. assetfinder
+69. kali-tools-post-exploitation
+60. set
+61. kali-tools-top10
+62. kali-tools-web
+63. nmap
 
 The script downloads and runs the pimp-my-kali script which here is used to update the system further and install/update more essentials tools and dependencies. 
 You are free to download the script again and use it to upgrade your system further etc. 
