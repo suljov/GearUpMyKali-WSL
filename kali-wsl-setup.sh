@@ -17,6 +17,19 @@ apt --fix-broken install
 
 sudo apt install -y golang
 
+chsh -s /bin/zsh
+
+echo "export GOROOT=/usr/lib/go" >> ~/.bashrc
+echo "export GOPATH=$HOME/go" >> ~/.bashrc
+echo "export PATH=$GOPATH/bin:$GOROOT/bin:$PATH" >> ~/.zshrc
+
+echo "export GOROOT=/usr/lib/go" >> ~/.zshrc
+echo "export GOPATH=$HOME/go" >> ~/.zshrc
+echo "export PATH=$GOPATH/bin:$GOROOT/bin:$PATH" >> ~/.zshrc
+
+
+
+
 mkdir tools
 cd tools
 
@@ -218,7 +231,8 @@ wget https://raw.githubusercontent.com/firefart/dirtycow/master/dirty.c -O syste
 
 
 
-go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
+
+sudo apt install nuclei
 
 sudo apt install realtek-rtl88xxau-dkms
 sudo apt install dkms
@@ -249,6 +263,8 @@ clear
 
 
 sudo chown -R $username:$username tools
+echo "/home/$username/.local/bin" >> ~/.zshrc
+echo "/home/$username/.local/bin" >> ~/.bashrc
 
 clear
 
