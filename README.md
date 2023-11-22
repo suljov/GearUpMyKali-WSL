@@ -1,4 +1,4 @@
-# Kali linux system update and tool install script. 
+# WSL Kali linux system update and tool install script. 
 
 * This project/script is re-made from my Kali update and tool install script: [https://github.com/suljov/Kali-update-and-tool-install] 
 * This script i made is for making the installation of a new WSL Kali Linux more automatic and easier. 
