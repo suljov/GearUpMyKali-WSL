@@ -108,20 +108,22 @@ sudo apt install sublime-text
 
 # List of tools to install using apt
 tools_to_install=(
-    "terminator"
     "gobuster"
     "feroxbuster"
     "dirsearch"
     "seclists"
-    "remmina"
     "openjdk-11-jdk"
     "neo4j"
     "bloodhound"
-    "gedit"
-    "flameshot"
-    "code-oss"
-    "libreoffice"
     "subfinder"
+    "kali-linux-default"
+    "kali-linux-headless"
+    "kali-tools-database"
+    "kali-tools-information-gathering"
+    "kali-tools-passwords"
+    "msfpc"
+    "assetfinder"
+    "kali-tools-post-exploitation"
 
 )
 
@@ -171,7 +173,6 @@ repo_urls=(
     "https://github.com/epinna/tplmap"
     "https://github.com/enjoiz/XXEinjector"
     "https://github.com/Ebryx/GitDump"
-    "https://github.com/bugcrowd/HUNT"
     "https://github.com/WhiteWinterWolf/wwwolf-php-webshell"
     "https://github.com/GhostPack/SharpUp"
     "https://github.com/GhostPack/Seatbelt"
@@ -198,7 +199,7 @@ git clone https://github.com/codingo/NoSQLMap
 cd NoSQLMap
 sudo python setup.py install
 cd ..
-mv php-reverse-shell NoSQLMap xssmap tplmap XXEinjector jwt_tool GitDump HUNT LFImap wwwolf-php-webshell web/
+mv php-reverse-shell NoSQLMap xssmap tplmap XXEinjector jwt_tool GitDump LFImap wwwolf-php-webshell web/
 
 mkdir system/linux/dirtycow/
 
@@ -261,17 +262,6 @@ clear
 
 
 echo "Tools and repositories cloned successfully."
-echo " "
-echo "Manual installs on several tools/depencies are neeed"
-echo "Recommended are:"
-echo "1. Obsidian"
-echo "2. postman"
-echo "3. PwnKit"
-echo "4. Enum4linux-ng"
-echo "5. Printnightmare"
-echo "6. chisel"
-echo "7. plink"
-echo "8. Installing drivers for alpha wifi adapter"
 echo " "
 echo "All Done! Happy Hacking!"
 
