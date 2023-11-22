@@ -15,6 +15,8 @@ sudo apt install nmap
 
 apt --fix-broken install
 
+sudo apt install -y golang
+
 mkdir tools
 cd tools
 
