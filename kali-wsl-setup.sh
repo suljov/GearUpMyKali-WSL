@@ -9,7 +9,6 @@ echo "The script will now update the system and download tools"
 sleep 5
 
 sudo apt update
-sudo apt upgrade -y
 sudo apt full-upgrade -y 
 
 sudo apt install nmap
