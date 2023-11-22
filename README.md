@@ -44,70 +44,71 @@ chown -R <user>:<user> tools
 
 # Tools
 Over the tools that is already installed on Kali Linux the script will install the following tools:
+
 1. Winpeas
 2. Linpeas
 3. LaZagne
 4. Snaffler
-5. Printspoofer(32 and 64)
+5. Printspoofer (32 and 64)
 6. Some of the DirtyCow exploits
 7. Some of the Potato exploits
 8. AccessChk
-9. ligolo-ng (both proxy and agent for linux and windows)
-10. lse (linux smart enumeration)
+9. ligolo-ng (both proxy and agent for Linux and Windows)
+10. lse (Linux smart enumeration)
 11. pspy (32 and 64)
-14. Gobuster
-15. Feroxbuster
-16. dirsearch
-17. seclists
-19. openjdk-11-jdk
-20. neo4j
-21. bloodhound
-25. autorecon
-26. Ghostpack-CompiledBinaries
-27. Inveigh
-28. Windows-Exploit-Suggester
-29. windapsearch
-30. Rubeus
-31. PrivescCheck
-32. mimikatz
-33. nc.exe
-34. PetitPotam
-35. LinEnum
-36. linux-exploit-suggester
-37. linux-exploit-suggester-2
-38. php-reverse-shell
-39. tplmap
-40. XXEinjector
-41. GitDump
-43. wwwolf-php-webshell
-44. SharpUp
-45. Seatbelt
-46. impacket
-47. BloodHound.py
-48. Pimp-my-kali (pimp-my-kali script will be removed after this script has has been run)
-49. NoSQLMap
-51. xcat
-52. sysinternalsuite
-53. kerbrute
-54. rustscan (2.0.1)
-55. subfinder
-56. windowsprivchecker.bat
-57. xssmap
-58. httpx
-59. jwt_tool
-60. lfimap
-61. kali-linux-default
-62. kali-linux-headless
-63. kali-tools-database
-64. kali-tools-information-gathering
-65. kali-tools-passwords
-66. msfpc
-67. assetfinder
-68. kali-tools-post-exploitation
-69. set
-70. kali-tools-top10
-71. kali-tools-web
-72. nmap
+12. Gobuster
+13. Feroxbuster
+14. dirsearch
+15. seclists
+16. openjdk-11-jdk
+17. neo4j
+18. bloodhound
+19. autorecon
+20. Ghostpack-CompiledBinaries
+21. Inveigh
+22. Windows-Exploit-Suggester
+23. windapsearch
+24. Rubeus
+25. PrivescCheck
+26. mimikatz
+27. nc.exe
+28. PetitPotam
+29. LinEnum
+30. linux-exploit-suggester
+31. linux-exploit-suggester-2
+32. php-reverse-shell
+33. tplmap
+34. XXEinjector
+35. GitDump
+36. wwwolf-php-webshell
+37. SharpUp
+38. Seatbelt
+39. impacket
+40. BloodHound.py
+41. Pimp-my-kali (pimp-my-kali script will be removed after this script has been run)
+42. NoSQLMap
+43. xcat
+44. sysinternalsuite
+45. kerbrute
+46. rustscan (2.0.1)
+47. subfinder
+48. windowsprivchecker.bat
+49. xssmap
+50. httpx
+51. jwt_tool
+52. lfimap
+53. kali-linux-default
+54. kali-linux-headless
+55. kali-tools-database
+56. kali-tools-information-gathering
+57. kali-tools-passwords
+58. msfpc
+59. assetfinder
+60. kali-tools-post-exploitation
+61. set
+62. kali-tools-top10
+63. kali-tools-web
+64. nmap
 
 The script downloads and runs the pimp-my-kali script which here is used to update the system further and install/update more essentials tools and dependencies. 
 You are free to download the script again and use it to upgrade your system further etc. 
