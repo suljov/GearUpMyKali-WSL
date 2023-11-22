@@ -66,8 +66,6 @@ Over the tools that is already installed on Kali Linux the script will install t
 20. neo4j
 21. bloodhound
 22. gedit
-23. flammeshot
-24. code-oss (vs code)
 25. autorecon
 26. Ghostpack-CompiledBinaries
 27. Inveigh
@@ -85,7 +83,6 @@ Over the tools that is already installed on Kali Linux the script will install t
 39. tplmap
 40. XXEinjector
 41. GitDump
-42. HUNT (Burp Suite extensions)
 43. wwwolf-php-webshell
 44. SharpUp
 45. Seatbelt
@@ -93,7 +90,6 @@ Over the tools that is already installed on Kali Linux the script will install t
 47. BloodHound.py
 48. Pimp-my-kali (pimp-my-kali script will be removed after this script has has been run)
 49. NoSQLMap
-50. libreoffice (office programs like Excel etc)
 51. xcat
 52. sysinternalsuite
 53. kerbrute
@@ -104,6 +100,13 @@ Over the tools that is already installed on Kali Linux the script will install t
 58. httpx
 59. jwt_tool
 60. lfimap
+61. kali-linux-default
+62. kali-linux-headless
+63. kali-tools-database
+64. kali-tools-information-gathering
+65. kali-tools-passwords
+66. msfpc
+67. assetfinder
 
 The script downloads and runs the pimp-my-kali script which here is used to update the system further and install/update more essentials tools and dependencies. 
 You are free to download the script again and use it to upgrade your system further etc. 
