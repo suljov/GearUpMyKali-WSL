@@ -55,13 +55,10 @@ Over the tools that is already installed on Kali Linux the script will install t
 9. ligolo-ng (both proxy and agent for linux and windows)
 10. lse (linux smart enumeration)
 11. pspy (32 and 64)
-12. Sublimetext
-13. Terminator
 14. Gobuster
 15. Feroxbuster
 16. dirsearch
 17. seclists
-18. remmina
 19. openjdk-11-jdk
 20. neo4j
 21. bloodhound
