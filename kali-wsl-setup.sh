@@ -215,13 +215,6 @@ wget https://raw.githubusercontent.com/firefart/dirtycow/master/dirty.c -O syste
 
 
 
-git clone https://github.com/Dewalt-arch/pimpmykali
-cd pimpmykali
-echo "1" | sudo ./pimpmykali.sh
-echo "3" | sudo ./pimpmykali.sh
-echo "5" | sudo ./pimpmykali.sh
-cd .. 
-rm -r pimpmykali
 
 go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 
