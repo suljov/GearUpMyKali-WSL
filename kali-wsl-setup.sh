@@ -15,6 +15,8 @@ sudo apt dist-upgrade -y
 
 sudo apt install nmap
 
+apt --fix-broken install
+
 mkdir tools
 cd tools
 
