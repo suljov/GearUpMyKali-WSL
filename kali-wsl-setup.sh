@@ -124,6 +124,9 @@ tools_to_install=(
     "msfpc"
     "assetfinder"
     "kali-tools-post-exploitation"
+    "set"
+    "kali-tools-top10"
+    "kali-tools-web"
 
 )
 
