@@ -60,6 +60,7 @@ sudo dpkg -i rustscan_2.0.1_amd64.deb
 sudo rm rustscan_2.0.1_amd64.deb
 
 pip3 install kerbrute
+go install github.com/ropnop/kerbrute@latest
 
 git clone https://github.com/AlessandroZ/LaZagne
 cd LaZagne
