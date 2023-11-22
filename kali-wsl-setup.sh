@@ -120,7 +120,6 @@ tools_to_install=(
     "bloodhound"
     "subfinder"
     "kali-linux-default"
-    "kali-linux-headless"
     "kali-tools-database"
     "kali-tools-information-gathering"
     "kali-tools-passwords"
