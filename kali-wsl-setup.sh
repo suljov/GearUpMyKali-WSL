@@ -107,6 +107,7 @@ sudo apt install sublime-text
 
 # List of tools to install using apt
 tools_to_install=(
+    "nmap"
     "gobuster"
     "feroxbuster"
     "dirsearch"
