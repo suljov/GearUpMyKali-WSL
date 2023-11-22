@@ -154,7 +154,7 @@ sudo python3 -m pipx ensurepath
 sudo pipx install git+https://github.com/Tib3rius/AutoRecon.git
 
 # installs all the tools with apt
-sudo apt install -y "${tools_to_install[@]}"
+sudo apt install "${tools_to_install[@]}" -y
 sudo apt update -y
 sudo apt upgrade -y
 
