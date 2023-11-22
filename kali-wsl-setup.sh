@@ -109,6 +109,10 @@ sudo apt update -y
 sudo apt upgrade -y
 sudo apt install sublime-text
 
+
+
+echo "Installing tools using apt..."
+
 # List of tools to install using apt
 tools_to_install=(
     "gobuster"
@@ -130,11 +134,13 @@ tools_to_install=(
     "kali-tools-top10"
     "kali-tools-web"
     "nikto"
-
 )
 
+# installs all the tools with apt
+sudo apt install -y "${tools_to_install[@]}"
+sudo apt update -y
+sudo apt upgrade -y
 
-echo "Installing tools using apt..."
 
 
 sudo apt install apt-transport-https
@@ -156,10 +162,7 @@ sudo python3 -m pipx ensurepath
 
 sudo pipx install git+https://github.com/Tib3rius/AutoRecon.git
 
-# installs all the tools with apt
-sudo apt install -y "${tools_to_install[@]}"
-sudo apt update -y
-sudo apt upgrade -y
+
 
 # GitHub repository URLs
 repo_urls=(
