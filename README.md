@@ -108,6 +108,7 @@ Over the tools that is already installed on Kali Linux the script will install t
 61. kali-tools-top10
 62. kali-tools-web
 63. nmap
+64. nikto
 
 The script downloads and runs the pimp-my-kali script which here is used to update the system further and install/update more essentials tools and dependencies. 
 You are free to download the script again and use it to upgrade your system further etc. 
