@@ -129,6 +129,7 @@ tools_to_install=(
     "set"
     "kali-tools-top10"
     "kali-tools-web"
+    "nikto"
 
 )
 
