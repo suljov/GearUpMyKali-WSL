@@ -1,7 +1,7 @@
 # Kali linux system update and tool install script. 
 
-* This project/script is re-made from my Kali update and tool install script [https://github.com/suljov/Kali-update-and-tool-install] 
-* This script i made is for making the installation of a new Kali Linux more automatic and easier. 
+* This project/script is re-made from my Kali update and tool install script: [https://github.com/suljov/Kali-update-and-tool-install] 
+* This script i made is for making the installation of a new WSL Kali Linux more automatic and easier. 
 * The script will update and upgrade the system, install the basic and essential tools (atleast those that i use etc)
 * This script is easy to use and easy to modify for your own needs etc. 
 * Of course you are free to use and modify as you like. 
