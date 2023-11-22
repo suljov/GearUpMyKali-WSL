@@ -62,7 +62,6 @@ Over the tools that is already installed on Kali Linux the script will install t
 19. openjdk-11-jdk
 20. neo4j
 21. bloodhound
-22. gedit
 25. autorecon
 26. Ghostpack-CompiledBinaries
 27. Inveigh
