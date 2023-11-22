@@ -253,6 +253,7 @@ go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 
 clear
 
+apt --fix-broken install
 sudo apt update -y
 sudo apt upgrade -y
 sudo apt full-upgrade -y 
