@@ -151,6 +151,7 @@ tools_to_install=(
     "nikto"
     "smbclient"
     "smbmap"
+    "httprobe"
 )
 
 # installs all the tools with apt
