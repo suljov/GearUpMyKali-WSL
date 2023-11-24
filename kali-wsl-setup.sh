@@ -10,7 +10,7 @@ sleep 5
 
 sudo apt update
 sudo apt full-upgrade -y 
-
+sudo apt install pipx
 sudo apt install nmap
 
 apt --fix-broken install
