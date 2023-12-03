@@ -268,8 +268,10 @@ echo "export GOPATH=$HOME/go" >> ~/.bashrc
 echo "export PATH=$GOPATH/bin:$GOROOT/bin:$PATH" >> ~/.zshrc
 
 echo "export GOROOT=/usr/lib/go" >> ~/.zshrc
-echo "export GOPATH=$HOME/go" >> ~/.zshrc
-echo "export PATH=$GOPATH/bin:$GOROOT/bin:$PATH" >> ~/.zshrc
+echo "export GOPATH=\$HOME/$GO_PATH" >> ~/.zshrc
+echo "export PATH=\$HOME/\$GOPATH/bin:\$HOME/\$GOROOT/bin:\$PATH" >> ~/.zshrc
+
+
 
 
 sudo chown -R $username:$username tools
