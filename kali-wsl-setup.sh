@@ -285,7 +285,8 @@ echo "Tools and repositories cloned successfully."
 echo " "
 echo "All Done! Happy Hacking!"
 
-
+sleep 5
+reset
 
 
 
