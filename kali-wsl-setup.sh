@@ -19,13 +19,7 @@ sudo apt install -y golang
 
 chsh -s /bin/zsh
 
-echo "export GOROOT=/usr/lib/go" >> ~/.bashrc
-echo "export GOPATH=$HOME/go" >> ~/.bashrc
-echo "export PATH=$GOPATH/bin:$GOROOT/bin:$PATH" >> ~/.zshrc
 
-echo "export GOROOT=/usr/lib/go" >> ~/.zshrc
-echo "export GOPATH=$HOME/go" >> ~/.zshrc
-echo "export PATH=$GOPATH/bin:$GOROOT/bin:$PATH" >> ~/.zshrc
 
 
 
@@ -269,7 +263,13 @@ go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 
 clear
 
+echo "export GOROOT=/usr/lib/go" >> ~/.bashrc
+echo "export GOPATH=$HOME/go" >> ~/.bashrc
+echo "export PATH=$GOPATH/bin:$GOROOT/bin:$PATH" >> ~/.zshrc
 
+echo "export GOROOT=/usr/lib/go" >> ~/.zshrc
+echo "export GOPATH=$HOME/go" >> ~/.zshrc
+echo "export PATH=$GOPATH/bin:$GOROOT/bin:$PATH" >> ~/.zshrc
 
 
 sudo chown -R $username:$username tools
