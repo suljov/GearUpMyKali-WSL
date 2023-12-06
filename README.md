@@ -99,15 +99,12 @@ Over the tools that is already installed on Kali Linux the script will install t
 52. kali-linux-everything
 53. msfpc
 54. assetfinder
-65. kali-linux-everything
-66. set
-67. kali-tools-top10
-68. kali-tools-web
-79. nmap
-70. nikto
-71. enum4linux-ng
-72. commix
-73. httprobe
+55. set
+56. nmap
+57. nikto
+58. enum4linux-ng
+59. commix
+60. httprobe
 
 The script downloads and runs the pimp-my-kali script which here is used to update the system further and install/update more essentials tools and dependencies. 
 You are free to download the script again and use it to upgrade your system further etc. 
