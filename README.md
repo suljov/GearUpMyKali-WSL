@@ -85,30 +85,29 @@ Over the tools that is already installed on Kali Linux the script will install t
 38. Seatbelt
 39. impacket
 40. BloodHound.py
-41. Pimp-my-kali (pimp-my-kali script will be removed after this script has been run)
-42. NoSQLMap
-43. xcat
-44. sysinternalsuite
-45. kerbrute
-46. rustscan (2.0.1)
-47. subfinder
-48. windowsprivchecker.bat
-49. xssmap
-50. httpx
-51. jwt_tool
-52. lfimap
-53. kali-linux-everything
-54. msfpc
-55. assetfinder
-66. kali-tools-post-exploitation
-67. set
-68. kali-tools-top10
-69. kali-tools-web
-70. nmap
-71. nikto
-72. enum4linux-ng
-73. commix
-74. httprobe
+41. NoSQLMap
+42. xcat
+43. sysinternalsuite
+44. kerbrute
+45. rustscan (2.0.1)
+46. subfinder
+47. windowsprivchecker.bat
+48. xssmap
+49. httpx
+50. jwt_tool
+51. lfimap
+52. kali-linux-everything
+53. msfpc
+54. assetfinder
+65. kali-linux-everything
+66. set
+67. kali-tools-top10
+68. kali-tools-web
+79. nmap
+70. nikto
+71. enum4linux-ng
+72. commix
+73. httprobe
 
 The script downloads and runs the pimp-my-kali script which here is used to update the system further and install/update more essentials tools and dependencies. 
 You are free to download the script again and use it to upgrade your system further etc. 
