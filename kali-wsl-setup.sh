@@ -12,9 +12,6 @@ sudo apt update
 sudo apt full-upgrade -y 
 
 
-sudo apt install -y docker.io
-sudo systemctl enable docker --now
-
 
 sudo apt install pipx
 sudo apt install nmap
