@@ -198,7 +198,6 @@ repo_urls=(
     "https://github.com/pentestmonkey/php-reverse-shell"
     "https://github.com/epinna/tplmap"
     "https://github.com/enjoiz/XXEinjector"
-    "https://github.com/Ebryx/GitDump"
     "https://github.com/WhiteWinterWolf/wwwolf-php-webshell"
     "https://github.com/GhostPack/SharpUp"
     "https://github.com/GhostPack/Seatbelt"
@@ -229,7 +228,7 @@ cd ..
 
 git clone https://github.com/commixproject/commix
 
-mv php-reverse-shell NoSQLMap xssmap tplmap XXEinjector jwt_tool GitDump LFImap wwwolf-php-webshell commix web/
+mv php-reverse-shell NoSQLMap xssmap tplmap XXEinjector jwt_tool LFImap wwwolf-php-webshell commix web/
 
 mkdir system/linux/dirtycow/
 
@@ -246,6 +245,9 @@ wget https://raw.githubusercontent.com/firefart/dirtycow/master/dirty.c -O syste
 
 
 sudo apt install nuclei
+
+pip install git-dumper
+
 
 sudo apt install realtek-rtl88xxau-dkms
 sudo apt install dkms
