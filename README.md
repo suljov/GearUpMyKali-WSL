@@ -106,6 +106,9 @@ Over the tools that is already installed on Kali Linux the script will install t
 59. commix
 60. httprobe
 61. NetExec (since crackmapexec is deprecated)
+62. p0wny-shell
+63. csrf-poc-generator
+64. trufflehog
 
 The script downloads and runs the pimp-my-kali script which here is used to update the system further and install/update more essentials tools and dependencies. 
 You are free to download the script again and use it to upgrade your system further etc. 
