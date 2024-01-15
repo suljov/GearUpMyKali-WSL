@@ -171,7 +171,14 @@ sudo apt install python3-venv
 python3 -m pip install --user pipx
 python3 -m pipx ensurepath
 
-pipx install git+https://github.com/Pennyw0rth/NetExec
+apt install python3 python3-pip
+git clone https://github.com/Pennyw0rth/NetExec
+cd NetExec
+python3 -m venv .
+source bin/activate
+pip install .
+cd ..
+
 
 python3 -m pipx install impacket
 
