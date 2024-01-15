@@ -130,31 +130,29 @@ sudo apt install --only-upgrade firefox-esr
 
 echo "Installing tools using apt..."
 
-# List of tools to install using apt
-tools_to_install=(
-    "gobuster"
-    "feroxbuster"
-    "dirsearch"
-    "seclists"
-    "openjdk-11-jdk"
-    "neo4j"
-    "bloodhound"
-    "subfinder"
-    "kali-linux-everything"
-    "msfpc"
-    "assetfinder"
-    "set"
-    "kali-tools-top10"
-    "kali-tools-web"
-    "nikto"
-    "smbclient"
-    "smbmap"
-    "httprobe"
-    "enum4linux-ng"
-)
 
-# installs all the tools with apt
-sudo apt install -y "${tools_to_install[@]}"
+sudo apt install gobuster -y 
+sudo apt install dirsearch -y 
+sudo apt install feroxbuster -y 
+sudo apt install seclists -y 
+sudo apt install openjdk-11-jdk -y 
+sudo apt install neo4j -y 
+sudo apt install bloodhound -y 
+sudo apt install subfinder -y 
+sudo apt install kali-linux-everything -y 
+sudo apt install msfpc -y 
+sudo apt install assetfinder -y 
+sudo apt install set -y 
+sudo apt install kali-tools-top10 -y 
+sudo apt install kali-tools-web -y 
+sudo apt install nikto -y 
+sudo apt install smbclient -y 
+sudo apt install smbmap -y 
+sudo apt install httprobe -y 
+sudo apt install enum4linux-ng -y 
+
+
+
 
 
 
