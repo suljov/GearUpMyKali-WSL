@@ -153,6 +153,7 @@ sudo apt install smbmap -y
 sudo apt install httprobe -y 
 sudo apt install enum4linux-ng -y 
 sudo apt install exploitdb -y 
+sudo apt install remmina -y 
 
 
 
