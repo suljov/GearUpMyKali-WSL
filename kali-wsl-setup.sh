@@ -219,7 +219,7 @@ repo_urls=(
     "https://github.com/hansmach1ne/LFImap"
     "https://github.com/flozz/p0wny-shell.git"
     "https://github.com/merttasci/csrf-poc-generator.git"
-    
+    "https://github.com/Digitemis/GLPIScan"    
 )
 
 # Loop through the repository URLs and clone each one into the current directory
