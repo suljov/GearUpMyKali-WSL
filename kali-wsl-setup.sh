@@ -23,7 +23,7 @@ sudo apt install sqlmap
 
 
 
-apt --fix-broken install
+sudo apt --fix-broken install
 
 sudo apt install -y golang
 
@@ -171,12 +171,14 @@ sudo apt install apt-transport-https
 sudo apt install seclists curl dnsrecon enum4linux feroxbuster gobuster impacket-scripts nbtscan nikto nmap onesixtyone oscanner redis-tools smbclient smbmap snmp sslscan sipvicious tnscmd10g whatweb wkhtmltopdf
 
 apt install pipx git
+sudo apt install pipx git
 pipx ensurepath
 sudo apt install python3-venv
 python3 -m pip install --user pipx
 python3 -m pipx ensurepath
 
 apt install python3 python3-pip
+sudo apt install python3 python3-pip
 git clone https://github.com/Pennyw0rth/NetExec
 cd NetExec
 python3 -m venv .
