@@ -16,6 +16,27 @@ sudo apt update --fix-missing
 sudo apt upgrade --fix-missing
 
 
+
+
+export PATH=$HOME/.local/bin:$PATH
+export GOROOT=/usr/lib/go
+export GOPATH=$HOME/go
+export PATH=$PATH:/usr/lib/go/bin:$HOME/go/bin
+
+
+
+echo "export GOROOT=/usr/lib/go" >> .zshrc
+echo "export GOPATH=$HOME/go" >> .zshrc
+echo "export PATH=$PATH:/usr/lib/go/bin:$HOME/go/bin" >> .zshrc
+echo "export PATH=$HOME/.local/bin:$PATH" >> .zshrc
+
+echo "export PATH=$HOME/.local/bin:$PATH" >> .bashrc
+echo "export GOROOT=/usr/lib/go" >> .bashrc
+echo "export GOPATH=$HOME/go" >> .bashrc
+echo "export PATH=$PATH:/usr/lib/go/bin:$HOME/go/bin" >> .bashrc
+
+
+
 sudo apt install pipx
 sudo apt install nmap
 sudo apt install sqlmap
@@ -290,26 +311,10 @@ go install github.com/ropnop/kerbrute@latest
 sudo mv /usr/bin/httpx /usr/bin/httpx-bak
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 
-clear
 
 
 
-export PATH=$HOME/.local/bin:$PATH
-export GOROOT=/usr/lib/go
-export GOPATH=$HOME/go
-export PATH=$PATH:/usr/lib/go/bin:$HOME/go/bin
 
-
-
-echo "export GOROOT=/usr/lib/go" >> .zshrc
-echo "export GOPATH=$HOME/go" >> .zshrc
-echo "export PATH=$PATH:/usr/lib/go/bin:$HOME/go/bin" >> .zshrc
-echo "export PATH=$HOME/.local/bin:$PATH" >> .zshrc
-
-echo "export PATH=$HOME/.local/bin:$PATH" >> .bashrc
-echo "export GOROOT=/usr/lib/go" >> .bashrc
-echo "export GOPATH=$HOME/go" >> .bashrc
-echo "export PATH=$PATH:/usr/lib/go/bin:$HOME/go/bin" >> .bashrc
 
 clear
 
