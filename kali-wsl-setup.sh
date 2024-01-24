@@ -15,6 +15,7 @@ sudo apt full-upgrade -y
 sudo apt update --fix-missing
 sudo apt upgrade --fix-missing
 
+sudo apt --fix-broken install
 
 
 
@@ -44,7 +45,6 @@ sudo apt install sqlmap
 
 
 
-sudo apt --fix-broken install
 
 sudo apt install -y golang
 
