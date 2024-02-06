@@ -61,7 +61,15 @@ mkdir system/linux
 mkdir system/windows
 mkdir pivoting
 mkdir misc
+mkdir c2
 
+cd c2
+
+git clone https://github.com/BishopFox/sliver.git
+cd sliver
+make
+cd ..
+cd ..
 
 
 wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas_linux_amd64 
