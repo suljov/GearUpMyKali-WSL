@@ -115,6 +115,8 @@ Over the tools that is already installed on Kali Linux the script will install t
 68. Sliver (C2)
 69. Wfuzz
 70. ntlm_theft
+71. krbrelayx
+72. bloodyAD
 
 The script downloads and runs the pimp-my-kali script which here is used to update the system further and install/update more essentials tools and dependencies. 
 You are free to download the script again and use it to upgrade your system further etc. 
