@@ -6,7 +6,7 @@ clear
 echo "Please enter your username:"
 read username
 clear
-sleep 3
+sleep 2
 
 
 clear
@@ -15,7 +15,7 @@ echo "Please enter your username on the windows host:"
 read winusername
 clear
 echo "The script will now update the system and download tools"
-sleep 5
+sleep 2
 
 
 sudo apt update -y
