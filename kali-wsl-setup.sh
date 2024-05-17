@@ -6,8 +6,17 @@ clear
 echo "Please enter your username:"
 read username
 clear
+sleep 3
+
+
+clear
+clear
+echo "Please enter your username on the windows host:"
+read winusername
+clear
 echo "The script will now update the system and download tools"
 sleep 5
+
 
 sudo apt update -y
 sudo apt full-upgrade -y 
@@ -18,7 +27,7 @@ sudo apt upgrade --fix-missing
 sudo apt --fix-broken install
 
 
-export PATH=$HOME/.local/bin:$PATH:/usr/lib/go/bin:/go/bin:/snap/bin:$HOME
+export PATH=$HOME/.local/bin:$PATH:/usr/lib/go/bin:/go/bin:/snap/bin:$HOME:"/mnt/c/Users/$winusername/AppData/Local/Programs/Microsoft VS Code/bin/"
 export GOROOT=/usr/lib/go
 export GOPATH=$HOME/go
 
