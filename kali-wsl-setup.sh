@@ -3,6 +3,10 @@
 
 clear
 
+
+wget https://raw.githubusercontent.com/jazzpizazz/zsh-aliases/main/aliases.zsh -o ~/aliases.zsh
+echo "source ~/aliases.zsh" >> ~/.zshrc
+
 export PATH=$HOME/.local/bin:$PATH:/usr/lib/go/bin:/go/bin:/snap/bin:$HOME:"/mnt/c/Users/$winusername/AppData/Local/Programs/Microsoft VS Code/bin/"
 export GOROOT=/usr/lib/go
 export GOPATH=$HOME/go
