@@ -41,24 +41,24 @@ echo "neofetch" >> /home/$username/.bashrc
 sudo apt update -y
 sudo apt full-upgrade -y 
 
-sudo apt update --fix-missing
-sudo apt upgrade --fix-missing
+sudo apt update --fix-missing -y
+sudo apt upgrade --fix-missing -y
 
-sudo apt --fix-broken install
-
-
-
-sudo apt install neofetch
-sudo apt install xclip
-sudo apt install pipx
-sudo apt install nmap
-sudo apt install sqlmap
+sudo apt --fix-broken install -y
 
 
 
+sudo apt install neofetch -y
+sudo apt install xclip -y
+sudo apt install pipx -y
+sudo apt install nmap -y
+sudo apt install sqlmap -y
 
 
-sudo apt install -y golang
+
+
+
+sudo apt install -y golang -y
 
 chsh -s /bin/zsh
 
@@ -170,7 +170,7 @@ wget https://github.com/DominicBreuker/pspy/releases/latest/download/pspy64
 
 mv pspy32 pspy64 system/linux/
 
-sudo apt install --only-upgrade firefox-esr
+sudo apt install --only-upgrade firefox-esr -y
 
 
 
@@ -210,20 +210,20 @@ sudo apt install cupp -y
 
 
 
-sudo apt install apt-transport-https
+sudo apt install apt-transport-https -y
 
 
 # extra command to make sure autorecon works
 sudo apt install seclists curl dnsrecon enum4linux feroxbuster gobuster impacket-scripts nbtscan nikto nmap onesixtyone oscanner redis-tools smbclient smbmap snmp sslscan sipvicious tnscmd10g whatweb wkhtmltopdf
 
-apt install pipx git
-sudo apt install pipx git
+apt install pipx git -y
+sudo apt install pipx git -y
 pipx ensurepath
-sudo apt install python3-venv
+sudo apt install python3-venv -y
 python3 -m pip install --user pipx
 python3 -m pipx ensurepath
 
-apt install python3 python3-pip
+apt install python3 python3-pip -y
 sudo apt install python3 python3-pip
 
 pipx install git+https://github.com/Pennyw0rth/NetExec
@@ -322,13 +322,13 @@ wget https://raw.githubusercontent.com/firefart/dirtycow/master/dirty.c -O syste
 
 
 
-sudo apt install nuclei
+sudo apt install nuclei -y
 
 pip install git-dumper
 
 
-sudo apt install realtek-rtl88xxau-dkms
-sudo apt install dkms
+sudo apt install realtek-rtl88xxau-dkms -y
+sudo apt install dkms -y
 git clone https://github.com/aircrack-ng/rtl8812au
 cd rtl8812au/
 make
