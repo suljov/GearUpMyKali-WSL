@@ -28,11 +28,14 @@ echo "export GOROOT=/usr/lib/go" >> /home/$username/.zshrc
 echo "export GOPATH=$HOME/go" >> /home/$username/.zshrc
 echo "export PATH=$PATH:$GOROOT/bin:$GOPATH/bin">> /home/$username/.zshrc
 echo "export PATH=$HOME/.local/bin:$PATH:/usr/lib/go/bin:$HOME/go/bin" >> /home/$username/.zshrc
+echo "neofetch" >> /home/$username/.zshrc
 
 echo "export GOROOT=/usr/lib/go" >> /home/$username/.bashrc
 echo "export GOPATH=$HOME/go" >> /home/$username/.bashrc
 echo "export PATH=$PATH:$GOROOT/bin:$GOPATH/bin">> /home/$username/.bashrc
 echo "export PATH=$HOME/.local/bin:$PATH:/usr/lib/go/bin:$HOME/go/bin" >> /home/$username/.bashrc
+echo "neofetch" >> /home/$username/.bashrc
+
 
 
 sudo apt update -y
@@ -45,7 +48,7 @@ sudo apt --fix-broken install
 
 
 
-
+sudo apt install neofetch
 sudo apt install xclip
 sudo apt install pipx
 sudo apt install nmap
