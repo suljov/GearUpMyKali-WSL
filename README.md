@@ -15,17 +15,20 @@
 
 1. Download the script
 ```
-git clone https://github.com/suljov/Kali-wsl-update-and-tool-install
+git clone https://github.com/suljov/Kali-update-and-tool-install
+```
+2. Move the script
+```
+mv Kali-wsl-update-and-tool-install/kali-wsl-setup.sh .
+```
+3. Make it executeable
+```
+chmod +x kali-setup.sh
 ```
 
-2. Make it executeable
+4. Run the script
 ```
-Sudo chmod +x kali-wsl-setup.sh
-```
-
-3. Run the script
-```
-sudo ./kali-wsl-setup.sh
+./kali-setup.sh
 ```
 
 ## Run the script using Curl
