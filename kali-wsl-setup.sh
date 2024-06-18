@@ -2,15 +2,26 @@
 
 
 clear
+clear
+echo "Please enter your username:"
+read username
+clear
+echo "The script will now update the system and download tools"
+sleep 2
 
 
+clear
+
+echo "## from setup script" >> /home/$username/.zshrc
+echo "## from setup script" >> /home/$username/.bashrc
 wget https://raw.githubusercontent.com/jazzpizazz/zsh-aliases/main/aliases.zsh -o ~/aliases.zsh
 echo "source ~/aliases.zsh" >> ~/.zshrc
+echo "source ~/aliases.zsh" >> ~/.bashrc
 
-export PATH=$HOME/.local/bin:$PATH:/usr/lib/go/bin:/go/bin:/snap/bin:$HOME:"/mnt/c/Users/$winusername/AppData/Local/Programs/Microsoft VS Code/bin/"
+
+export PATH=$HOME/.local/bin:$PATH:/usr/lib/go/bin:/go/bin:/snap/bin:$HOME
 export GOROOT=/usr/lib/go
 export GOPATH=$HOME/go
-
 
 
 echo "export GOROOT=/usr/lib/go" >> /home/$username/.zshrc
@@ -22,24 +33,6 @@ echo "export GOROOT=/usr/lib/go" >> /home/$username/.bashrc
 echo "export GOPATH=$HOME/go" >> /home/$username/.bashrc
 echo "export PATH=$PATH:$GOROOT/bin:$GOPATH/bin">> /home/$username/.bashrc
 echo "export PATH=$HOME/.local/bin:$PATH:/usr/lib/go/bin:$HOME/go/bin" >> /home/$username/.bashrc
-
-
-
-clear
-clear
-echo "Please enter your username:"
-read username
-clear
-sleep 2
-
-
-clear
-clear
-echo "Please enter your username on the windows host:"
-read winusername
-clear
-echo "The script will now update the system and download tools"
-sleep 2
 
 
 sudo apt update -y
