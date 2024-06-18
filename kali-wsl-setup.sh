@@ -233,7 +233,7 @@ python3 -m venv .
 source bin/activate
 pip install .
 cd ..
-rm -r NetExec
+sudo rm -r NetExec
 
 
 python3 -m pipx install impacket
@@ -359,7 +359,7 @@ cd username-anarchy
 sudo cp username-anarchy /usr/bin/username-anarchy
 sudo cp format-plugins.rb /usr/bin/format-plugins.rb
 cd .. 
-rm -r username-anarchy
+sudo rm -r username-anarchy
 sudo apt purge code-oss
 
 
