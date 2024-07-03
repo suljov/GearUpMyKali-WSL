@@ -127,6 +127,9 @@ Over the tools that is already installed on Kali Linux the script will install t
 77. username-anarchy
 78. cupp
 79. powersploit (powerview, powerup etc)
+80. SharpCollection
+81. Donut
+82. Godpotato
 
 The script downloads and runs the pimp-my-kali script which here is used to update the system further and install/update more essentials tools and dependencies. 
 You are free to download the script again and use it to upgrade your system further etc. 
