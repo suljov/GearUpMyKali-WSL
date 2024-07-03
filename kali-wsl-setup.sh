@@ -278,6 +278,8 @@ repo_urls=(
     "https://github.com/dirkjanm/krbrelayx"
     "https://github.com/assetnote/kiterunner"
     "https://github.com/powershellmafia/powersploit"
+    "https://github.com/TheWover/donut.git"
+    "https://github.com/Flangvik/SharpCollection"
 )
 
 # Loop through the repository URLs and clone each one into the current directory
@@ -287,8 +289,16 @@ for url in "${repo_urls[@]}"; do
     git clone "$url"
 done
 
-mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester windapsearch Rubeus PrivescCheck mimikatz nc.exe bloodyAD krbrelayx ntlm_theft PetitPotam SharpUp Seatbelt impacket BloodHound.py BloodHound powersploit system/windows/
+mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester windapsearch Rubeus PrivescCheck mimikatz nc.exe bloodyAD krbrelayx ntlm_theft PetitPotam SharpUp Seatbelt impacket SharpCollection BloodHound.py donut BloodHound powersploit system/windows/
 mv linux-exploit-suggester linux-exploit-suggester-2 LinEnum system/linux/
+
+
+wget https://github.com/BeichenDream/GodPotato/releases/download/V1.20/GodPotato-NET2.exe
+wget https://github.com/BeichenDream/GodPotato/releases/download/V1.20/GodPotato-NET35.exe
+wget https://github.com/BeichenDream/GodPotato/releases/download/V1.20/GodPotato-NET4.exe
+
+mv GodPotato-NET2.exe GodPotato-NET35.exe GodPotato-NET4.exe system/windows/potato/
+
 
 git clone https://github.com/codingo/NoSQLMap
 cd NoSQLMap
