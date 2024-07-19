@@ -380,6 +380,7 @@ sudo cp format-plugins.rb /usr/bin/format-plugins.rb
 cd .. 
 sudo rm -r username-anarchy
 sudo apt purge code-oss
+sudo python3 -m pip install apachetomcatscanner
 
 
 clear
