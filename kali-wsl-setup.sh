@@ -382,6 +382,12 @@ sudo rm -r username-anarchy
 sudo apt purge code-oss
 sudo python3 -m pip install apachetomcatscanner
 
+git clone https://github.com/suljov/ReconRunner
+cd ReconRunner
+chmod +x ReconRunner.sh
+sudo cp ReconRunner.sh /usr/local/bin/reconrunner
+cd ..
+rm -r reconrunner
 
 clear
 
