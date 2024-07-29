@@ -94,45 +94,46 @@ Over the tools that is already installed on Kali Linux the script will install t
 44. kerbrute
 45. rustscan (2.0.1)
 46. subfinder
-47. windowsprivchecker.bat
-48. xssmap
-49. httpx
-50. jwt_tool
-51. lfimap
-52. kali-linux-everything
-53. msfpc
-54. assetfinder
-55. set
-56. nmap
-57. nikto
-58. enum4linux-ng
-59. commix
-60. httprobe
-61. NetExec (since crackmapexec is deprecated)
-62. p0wny-shell
-63. csrf-poc-generator
-64. trufflehog
-65. remmina
-66. GLPIScan
-67. cvemap (API key needed to be setup up by user)
-68. Sliver (C2)
-69. Wfuzz
-70. ntlm_theft
-71. krbrelayx
-72. bloodyAD
-73. FullPowers
-74. RunasCs
-75. Nuclei
-76. Kiterunner
-77. username-anarchy
-78. cupp
-79. powersploit (powerview, powerup etc)
-80. SharpCollection
-81. Donut
-82. Godpotato
-83. PrecompiledBinaries
-84. apachetomcatscanner
-85. reconrunner (by me)
+47. windowsprivchecker
+48. linuxprivchecker
+49. xssmap
+50. httpx
+51. jwt_tool
+52. lfimap
+53. kali-linux-everything
+54. msfpc
+55. assetfinder
+56. set
+57. nmap
+58. nikto
+59. enum4linux-ng
+60. commix
+61. httprobe
+62. NetExec (since crackmapexec is deprecated)
+63. p0wny-shell
+64. csrf-poc-generator
+65. trufflehog
+66. remmina
+67. GLPIScan
+68. cvemap (API key needed to be setup up by user)
+69. Sliver (C2)
+70. Wfuzz
+71. ntlm_theft
+72. krbrelayx
+73. bloodyAD
+74. FullPowers
+75. RunasCs
+76. Nuclei
+77. Kiterunner
+78. username-anarchy
+79. cupp
+80. powersploit (powerview, powerup etc)
+81. SharpCollection
+82. Donut
+83. Godpotato
+84. PrecompiledBinaries
+85. apachetomcatscanner
+86. reconrunner (by me)
 
 The script downloads and runs the pimp-my-kali script which here is used to update the system further and install/update more essentials tools and dependencies. 
 You are free to download the script again and use it to upgrade your system further etc. 
