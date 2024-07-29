@@ -104,7 +104,6 @@ wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/winPEASx64
 wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/winPEASx86.exe 
 wget https://github.com/antonioCoco/RunasCs/releases/latest/download/RunasCs.zip
 wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/winPEASany.exe 
-wget https://raw.githubusercontent.com/Tib3rius/windowsprivchecker/master/windowsprivchecker.bat
 https://github.com/itm4n/FullPowers/releases/latest/download/FullPowers.exe
 
 
@@ -288,6 +287,8 @@ repo_urls=(
     "https://github.com/TheWover/donut.git"
     "https://github.com/Flangvik/SharpCollection"
     "https://github.com/jtmpu/PrecompiledBinaries"
+    "https://github.com/Tib3rius/windowsprivchecker"
+    "https://github.com/Tib3rius/linuxprivchecker"
 )
 
 # Loop through the repository URLs and clone each one into the current directory
@@ -297,8 +298,8 @@ for url in "${repo_urls[@]}"; do
     git clone "$url"
 done
 
-mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester windapsearch Rubeus PrivescCheck mimikatz nc.exe bloodyAD krbrelayx ntlm_theft PetitPotam SharpUp Seatbelt impacket SharpCollection PrecompiledBinaries BloodHound.py donut BloodHound powersploit system/windows/
-mv linux-exploit-suggester linux-exploit-suggester-2 LinEnum system/linux/
+mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester windapsearch Rubeus PrivescCheck mimikatz nc.exe bloodyAD krbrelayx ntlm_theft PetitPotam SharpUp Seatbelt impacket SharpCollection PrecompiledBinaries BloodHound.py donut BloodHound powersploit windowsprivchecker system/windows/
+mv linux-exploit-suggester linux-exploit-suggester-2 LinEnum linuxprivchecker system/linux/
 
 
 wget https://github.com/BeichenDream/GodPotato/releases/download/V1.20/GodPotato-NET2.exe
