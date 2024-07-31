@@ -289,6 +289,7 @@ repo_urls=(
     "https://github.com/jtmpu/PrecompiledBinaries"
     "https://github.com/Tib3rius/windowsprivchecker"
     "https://github.com/Tib3rius/linuxprivchecker"
+    "https://github.com/Tib3rius/Pentest-Cheatsheets"
 )
 
 # Loop through the repository URLs and clone each one into the current directory
@@ -300,6 +301,7 @@ done
 
 mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester windapsearch Rubeus PrivescCheck mimikatz nc.exe bloodyAD krbrelayx ntlm_theft PetitPotam SharpUp Seatbelt impacket SharpCollection PrecompiledBinaries BloodHound.py donut BloodHound powersploit windowsprivchecker system/windows/
 mv linux-exploit-suggester linux-exploit-suggester-2 LinEnum linuxprivchecker system/linux/
+mv Pentest-Cheatsheets misc/
 
 
 wget https://github.com/BeichenDream/GodPotato/releases/download/V1.20/GodPotato-NET2.exe
@@ -389,6 +391,9 @@ chmod +x ReconRunner.sh
 sudo cp ReconRunner.sh /usr/local/bin/reconrunner
 cd ..
 rm -r reconrunner
+
+pip install sphinx sphinx_rtd_theme
+pip3 install sphinx sphinx_rtd_theme
 
 clear
 
