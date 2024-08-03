@@ -395,6 +395,8 @@ rm -r reconrunner
 pip install sphinx sphinx_rtd_theme
 pip3 install sphinx sphinx_rtd_theme
 
+sudo apt autoremove
+
 clear
 
 
