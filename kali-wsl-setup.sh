@@ -387,10 +387,9 @@ sudo python3 -m pip install apachetomcatscanner
 
 git clone https://github.com/suljov/ReconRunner
 cd ReconRunner
-chmod +x ReconRunner.sh
-sudo cp ReconRunner.sh /usr/local/bin/reconrunner
+chmod +x install.sh && ./install.sh
 cd ..
-rm -r reconrunner
+sudo rm -r reconrunner
 
 pip install sphinx sphinx_rtd_theme
 pip3 install sphinx sphinx_rtd_theme
