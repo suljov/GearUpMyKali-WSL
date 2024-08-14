@@ -135,6 +135,7 @@ Over the tools that is already installed on Kali Linux the script will install t
 85. apachetomcatscanner
 86. reconrunner (by me)
 87. Pentest-Cheatsheets (Tib3rius)
+88. Additional wordlists
 
 The script downloads and runs the pimp-my-kali script which here is used to update the system further and install/update more essentials tools and dependencies. 
 You are free to download the script again and use it to upgrade your system further etc. 
