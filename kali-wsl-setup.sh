@@ -200,7 +200,6 @@ sudo apt install openjdk-11-jdk -y
 sudo apt install neo4j -y 
 sudo apt install bloodhound -y 
 sudo apt install subfinder -y 
-sudo apt install kali-linux-everything -y 
 sudo apt install msfpc -y 
 sudo apt install assetfinder -y 
 sudo apt install set -y 
