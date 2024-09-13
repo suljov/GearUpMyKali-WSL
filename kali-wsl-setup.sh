@@ -204,7 +204,7 @@ sudo apt install kali-linux-everything -y
 sudo apt install msfpc -y 
 sudo apt install assetfinder -y 
 sudo apt install set -y 
-sudo apt install kali-tools-top10 kali-tools-information-gathering kali-tools-vulnerability kali-tools-web kali-tools-passwords kali-tools-exploitation kali-tools-social-engineering kali-tools-sniffing-spoofing kali-tools-post-exploitation -y 
+sudo apt install kali-tools-top10 kali-tools-information-gathering kali-tools-vulnerability kali-tools-web kali-tools-passwords kali-tools-exploitation kali-tools-social-engineering kali-tools-sniffing-spoofing kali-tools-post-exploitation kali-linux-everything -y 
 sudo apt install nikto -y 
 sudo apt install smbclient -y 
 sudo apt install smbmap -y 
