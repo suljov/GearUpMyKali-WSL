@@ -48,95 +48,94 @@ chown -R <user>:<user> tools
 # Tools
 Over the tools that is already installed on Kali Linux the script will install the following tools:
 
-1. Winpeas
-2. Linpeas
-3. LaZagne
-4. Snaffler
-5. Printspoofer (32 and 64)
-6. Some of the DirtyCow exploits
-7. Some of the Potato exploits
-8. AccessChk
-9. ligolo-ng (both proxy and agent for Linux and Windows)
-10. lse (Linux smart enumeration)
-11. pspy (32 and 64)
-12. Gobuster
-13. Feroxbuster
-14. dirsearch
-15. seclists
-16. openjdk-11-jdk
-17. neo4j
-18. bloodhound
-19. autorecon
-20. Ghostpack-CompiledBinaries
-21. Inveigh
-22. Windows-Exploit-Suggester
-23. windapsearch
-24. Rubeus
-25. PrivescCheck
-26. mimikatz
-27. nc.exe
-28. PetitPotam
-29. LinEnum
-30. linux-exploit-suggester
-31. linux-exploit-suggester-2
-32. php-reverse-shell
-33. tplmap
-34. XXEinjector
-35. git-dumper
-36. wwwolf-php-webshell
-37. SharpUp
-38. Seatbelt
-39. impacket
-40. BloodHound.py
-41. NoSQLMap
-42. xcat
-43. sysinternalsuite
-44. kerbrute
-45. rustscan (2.0.1)
-46. subfinder
-47. windowsprivchecker
-48. linuxprivchecker
-49. xssmap
-50. httpx
-51. jwt_tool
-52. lfimap
-53. kali-linux-everything
-54. msfpc
-55. assetfinder
-56. set
-57. nmap
-58. nikto
-59. enum4linux-ng
-60. commix
-61. httprobe
-62. NetExec (since crackmapexec is deprecated)
-63. p0wny-shell
-64. csrf-poc-generator
-65. trufflehog
-66. remmina
-67. GLPIScan
-68. cvemap (API key needed to be setup up by user)
-69. Sliver (C2)
-70. Wfuzz
-71. ntlm_theft
-72. krbrelayx
-73. bloodyAD
-74. FullPowers
-75. RunasCs
-76. Nuclei
-77. Kiterunner
-78. username-anarchy
-79. cupp
-80. powersploit (powerview, powerup etc)
-81. SharpCollection
-82. Donut
-83. Godpotato
-84. PrecompiledBinaries
-85. apachetomcatscanner
-86. reconrunner (by me)
-87. Pentest-Cheatsheets (Tib3rius)
-88. Additional wordlists
-89. CVE-2023-2255 (ODT file exploit)
+* Winpeas
+* Linpeas
+* LaZagne
+* Snaffler
+* Printspoofer (32 and 64)
+* Some of the DirtyCow exploits
+* Some of the Potato exploits
+* AccessChk
+* ligolo-ng (both proxy and agent for Linux and Windows)
+* lse (Linux smart enumeration)
+* pspy (32 and 64)
+* Gobuster
+* Feroxbuster
+* dirsearch
+* seclists
+* openjdk-11-jdk
+* neo4j
+* bloodhound
+* Ghostpack-CompiledBinaries
+* Inveigh
+* Windows-Exploit-Suggester
+* windapsearch
+* Rubeus
+* PrivescCheck
+* mimikatz
+* nc.exe
+* PetitPotam
+* LinEnum
+* linux-exploit-suggester
+* linux-exploit-suggester-2
+* php-reverse-shell
+* tplmap
+* XXEinjector
+* git-dumper
+* wwwolf-php-webshell
+* SharpUp
+* Seatbelt
+* impacket
+* BloodHound.py
+* NoSQLMap
+* xcat
+* sysinternalsuite
+* kerbrute
+* rustscan (2.0.1)
+* subfinder
+* windowsprivchecker
+* linuxprivchecker
+* xssmap
+* httpx
+* jwt_tool
+* lfimap
+* kali-linux-everything
+* msfpc
+* assetfinder
+* set
+* nmap
+* nikto
+* enum4linux-ng
+* commix
+* httprobe
+* p0wny-shell
+* csrf-poc-generator
+* trufflehog
+* remmina
+* GLPIScan
+* cvemap (API key needed to be setup up by user)
+* Sliver (C2)
+* Wfuzz
+* ntlm_theft
+* krbrelayx
+* bloodyAD
+* FullPowers
+* RunasCs
+* Nuclei
+* Kiterunner
+* username-anarchy
+* cupp
+* powersploit (powerview, powerup etc)
+* SharpCollection
+* Donut
+* Godpotato
+* PrecompiledBinaries
+* apachetomcatscanner
+* reconrunner (by me)
+* Pentest-Cheatsheets (Tib3rius)
+* Additional wordlists
+* CVE-2023-2255 (ODT file exploit)
+
 
 The script downloads and runs the pimp-my-kali script which here is used to update the system further and install/update more essentials tools and dependencies. 
 You are free to download the script again and use it to upgrade your system further etc. 
