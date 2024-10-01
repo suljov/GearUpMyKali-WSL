@@ -327,7 +327,11 @@ sudo cp kiterunner/dist/kr /usr/bin/kr
 git clone https://github.com/vladko312/SSTImap
 
 
-mv php-reverse-shell GLPIScan NoSQLMap xssmap p0wny-shell csrf-poc-generator trufflehog_3.63.7_linux_arm64.tar.gz tplmap SSTImap XXEinjector jwt_tool LFImap wwwolf-php-webshell commix web/
+git clone https://github.com/josfaber/phpcc
+git clone https://github.com/frohoff/ysoserial
+
+
+mv php-reverse-shell GLPIScan NoSQLMap xssmap p0wny-shell csrf-poc-generator trufflehog_3.63.7_linux_arm64.tar.gz tplmap SSTImap XXEinjector jwt_tool LFImap wwwolf-php-webshell phpcc ysoserial commix web/
 
 mkdir system/linux/dirtycow/
 
