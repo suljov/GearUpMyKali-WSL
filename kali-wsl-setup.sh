@@ -318,6 +318,7 @@ git clone https://github.com/commixproject/commix
 
 wget https://github.com/trufflesecurity/trufflehog/releases/download/v3.63.7/trufflehog_3.63.7_linux_arm64.tar.gz
 
+go install github.com/projectdiscovery/katana/cmd/katana@latest
 
 cd kiterunner
 sudo make build
