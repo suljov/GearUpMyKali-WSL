@@ -355,7 +355,7 @@ wget https://raw.githubusercontent.com/firefart/dirtycow/master/dirty.c -O syste
 
 
 
-sudo apt install nuclei -y
+go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
 
 pip install git-dumper
 
