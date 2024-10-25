@@ -199,7 +199,6 @@ sudo apt install seclists -y
 sudo apt install openjdk-11-jdk -y 
 sudo apt install neo4j -y 
 sudo apt install bloodhound -y 
-sudo apt install subfinder -y 
 sudo apt install msfpc -y 
 sudo apt install assetfinder -y 
 sudo apt install set -y 
@@ -216,6 +215,7 @@ sudo apt install cupp -y
 
 
 
+go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 
 
 
