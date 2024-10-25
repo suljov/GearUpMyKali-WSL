@@ -234,6 +234,8 @@ sudo apt install python3-venv -y
 python3 -m pip install --user pipx
 python3 -m pipx ensurepath
 
+
+
 apt install python3 python3-pip -y
 sudo apt install python3 python3-pip
 
@@ -380,7 +382,7 @@ sudo rm -r /opt/winpeas/
 clear
 
 go install github.com/ropnop/kerbrute@latest
-sudo mv /usr/bin/httpx /usr/bin/httpx-bak
+sudo apt purge httpx
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 
 
