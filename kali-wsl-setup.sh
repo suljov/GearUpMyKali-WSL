@@ -289,6 +289,7 @@ repo_urls=(
     "https://github.com/Tib3rius/Pentest-Cheatsheets"
     "https://github.com/elweth-sec/CVE-2023-2255"
     "https://github.com/61106960/adPEAS"
+    "https://github.com/fa-rrel/JS-Scanner"
 )
 
 # Loop through the repository URLs and clone each one into the current directory
@@ -341,7 +342,7 @@ git clone https://github.com/SirBugs/endext
 
 
 
-mv php-reverse-shell GLPIScan NoSQLMap xssmap p0wny-shell csrf-poc-generator trufflehog_3.63.7_linux_arm64.tar.gz tplmap SSTImap XXEinjector endext jwt_tool LFImap wwwolf-php-webshell phpcc ysoserial commix web/
+mv php-reverse-shell GLPIScan NoSQLMap xssmap p0wny-shell csrf-poc-generator trufflehog_3.63.7_linux_arm64.tar.gz tplmap SSTImap XXEinjector endext jwt_tool LFImap wwwolf-php-webshell JS-Scanner phpcc ysoserial commix web/
 
 mkdir system/linux/dirtycow/
 
