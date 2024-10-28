@@ -411,6 +411,9 @@ pip3 install sphinx sphinx_rtd_theme
 
 sudo apt autoremove
 
+git clone https://github.com/projectdiscovery/nuclei-templates.git .nuclei-templates
+nuclei -ud ~/.nuclei-templates
+
 clear
 
 
