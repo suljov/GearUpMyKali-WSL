@@ -12,6 +12,7 @@ sleep 2
 
 clear
 
+mv .cent.yaml ~/.cent.yaml
 echo "## from setup script" >> /home/$username/.zshrc
 echo "## from setup script" >> /home/$username/.bashrc
 git clone https://github.com/jazzpizazz/zsh-aliases
@@ -413,6 +414,11 @@ sudo apt autoremove
 
 git clone https://github.com/projectdiscovery/nuclei-templates.git .nuclei-templates
 nuclei -ud ~/.nuclei-templates
+
+clear
+
+go install -v github.com/xm1k3/cent@latest
+cent -p ~/.cent-nuclei-templates
 
 clear
 
