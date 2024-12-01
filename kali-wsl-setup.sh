@@ -391,6 +391,7 @@ go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 
 
 go install github.com/projectdiscovery/cvemap/cmd/cvemap@latest
+go install github.com/BishopFox/sj@latest
 
 
 git clone https://github.com/urbanadventurer/username-anarchy
