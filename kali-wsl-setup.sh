@@ -364,6 +364,7 @@ go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
 go install -v github.com/projectdiscovery/urlfinder/cmd/urlfinder@latest
 go install github.com/tomnomnom/gf@latest
 go install github.com/tomnomnom/qsreplace@latest
+go install github.com/projectdiscovery/katana/cmd/katana@latest
 
 git clone https://github.com/devanshbatham/paramspider
 cd paramspider
