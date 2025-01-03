@@ -363,6 +363,13 @@ wget https://raw.githubusercontent.com/firefart/dirtycow/master/dirty.c -O syste
 go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
 go install -v github.com/projectdiscovery/urlfinder/cmd/urlfinder@latest
 go install github.com/tomnomnom/gf@latest
+go install github.com/tomnomnom/qsreplace@latest
+
+git clone https://github.com/devanshbatham/paramspider
+cd paramspider
+pipx install .
+cd ..
+rm -r paramspider
 
 pip install git-dumper
 
