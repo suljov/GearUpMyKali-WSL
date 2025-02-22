@@ -464,6 +464,8 @@ clear
 go install -v github.com/xm1k3/cent@latest
 cent -p ~/.cent-nuclei-templates
 
+wget https://raw.githubusercontent.com/yok4i/BloodHound-Queries/main/customqueries.json -O ~/.config/bloodhound/customqueries.json
+
 clear
 
 
