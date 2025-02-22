@@ -320,6 +320,7 @@ repo_urls=(
     "https://github.com/gremwell/o365enum"
     "https://github.com/dafthack/GraphRunner"
     "https://github.com/mlcsec/Graphpython"
+    "https://github.com/BloodHoundAD/BARK"
 )
 
 # Loop through the repository URLs and clone each one into the current directory
@@ -332,7 +333,7 @@ done
 mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester windapsearch Rubeus PrivescCheck mimikatz nc.exe bloodyAD krbrelayx ntlm_theft PetitPotam CVE-2023-2255 SharpUp Seatbelt impacket SharpCollection PrecompiledBinaries BloodHound.py adPEAS donut BloodHound powersploit windowsprivchecker system/windows/
 mv linux-exploit-suggester linux-exploit-suggester-2 LinEnum linuxprivchecker system/linux/
 mv Pentest-Cheatsheets misc/
-mv TokenTacticsV2 AzSubEnum Oh365UserFinder o365spray o365enum GraphRunner basicblobfinder Graphpython cloud/Azure
+mv TokenTacticsV2 AzSubEnum Oh365UserFinder o365spray o365enum GraphRunner basicblobfinder Graphpython BARK cloud/Azure
 
 
 wget https://github.com/BeichenDream/GodPotato/releases/download/V1.20/GodPotato-NET2.exe
