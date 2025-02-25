@@ -467,6 +467,11 @@ cent -p ~/.cent-nuclei-templates
 
 wget https://raw.githubusercontent.com/yok4i/BloodHound-Queries/main/customqueries.json -O ~/.config/bloodhound/customqueries.json
 
+git clone https://github.com/ihebski/DefaultCreds-cheat-sheet
+sudo cp creds /usr/bin/ && sudo chmod +x /usr/bin/creds
+cd ..
+sudo rm -r DefaultCreds-cheat-sheet
+
 clear
 
 
