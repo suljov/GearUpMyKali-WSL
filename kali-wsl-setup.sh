@@ -452,7 +452,9 @@ sudo rm -r reconrunner
 pip install sphinx sphinx_rtd_theme
 pip3 install sphinx sphinx_rtd_theme
 
-sudo apt autoremove
+sudo apt autoremove -y 
+
+pipx install smbclientng
 
 sudo wget https://raw.githubusercontent.com/wallarm/jwt-secrets/refs/heads/master/jwt.secrets.list -O /usr/share/wordlists/jwt.secrets.txt
 
