@@ -23,7 +23,7 @@ mv Kali-wsl-update-and-tool-install/kali-wsl-setup.sh .
 ```
 3. Make it executeable
 ```
-chmod +x kali-setup.sh
+chmod +x kali-wsl-setup.sh
 ```
 
 4. Run the script
