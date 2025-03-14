@@ -336,7 +336,7 @@ mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester windapsearch Rub
 mv linux-exploit-suggester linux-exploit-suggester-2 LinEnum linuxprivchecker system/linux/
 mv Pentest-Cheatsheets misc/
 mv TokenTacticsV2 AzSubEnum Oh365UserFinder o365spray o365enum GraphRunner basicblobfinder Graphpython BARK cloud/Azure
-mv SSLPinDetect mmobile
+mv SSLPinDetect mobile
 
 
 wget https://github.com/BeichenDream/GodPotato/releases/download/V1.20/GodPotato-NET2.exe
