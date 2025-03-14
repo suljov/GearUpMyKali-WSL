@@ -28,7 +28,7 @@ chmod +x kali-wsl-setup.sh
 
 4. Run the script
 ```
-./kali-setup.sh
+./kali-wsl-setup.sh
 ```
 
 ## Run the script using Curl
