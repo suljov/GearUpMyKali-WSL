@@ -360,6 +360,8 @@ git clone https://github.com/commixproject/commix
 wget https://github.com/trufflesecurity/trufflehog/releases/download/v3.63.7/trufflehog_3.63.7_linux_arm64.tar.gz
 
 go install github.com/projectdiscovery/katana/cmd/katana@latest
+go install github.com/hahwul/jwt-hack@latest
+sudo wget https://raw.githubusercontent.com/wallarm/jwt-secrets/refs/heads/master/jwt.secrets.list -O /usr/share/wordlists/jwt.secrets.txt
 
 cd kiterunner
 sudo make build
