@@ -370,6 +370,7 @@ sudo cp kiterunner/dist/kr /usr/bin/kr
 
 
 git clone https://github.com/vladko312/SSTImap
+pipx install arjun
 
 
 git clone https://github.com/josfaber/phpcc
