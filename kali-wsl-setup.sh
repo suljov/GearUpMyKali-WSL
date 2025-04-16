@@ -397,7 +397,7 @@ wget https://raw.githubusercontent.com/firefart/dirtycow/master/dirty.c -O syste
 
 
 sudo apt install npm
-npm install n8n
+npm install n8n -g
 
 
 go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
