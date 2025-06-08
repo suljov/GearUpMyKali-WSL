@@ -74,7 +74,7 @@ chsh -s /bin/zsh
 mkdir tools
 cd tools
 
-mkdir web
+mkdir 
 mkdir system
 mkdir system/linux
 mkdir system/windows
@@ -225,7 +225,7 @@ sudo apt install bloodhound -y
 sudo apt install msfpc -y 
 sudo apt install assetfinder -y 
 sudo apt install set -y 
-sudo apt install kali-tools-top10 kali-tools-information-gathering kali-tools-vulnerability kali-tools-web kali-tools-passwords kali-tools-exploitation kali-tools-social-engineering kali-tools-sniffing-spoofing kali-tools-post-exploitation kali-linux-everything -y 
+sudo apt install kali-tools-top10 kali-tools-information-gathering kali-tools-vulnerability kali-tools- kali-tools-passwords kali-tools-exploitation kali-tools-social-engineering kali-tools-sniffing-spoofing kali-tools-post-exploitation kali-linux-everything -y 
 sudo apt install nikto -y 
 sudo apt install smbclient -y 
 sudo apt install smbmap -y 
@@ -382,9 +382,11 @@ cd ..
 
 git clone https://github.com/SirBugs/endext
 
+wget https://github.com/steverobbins/magescan/releases/download/v1.12.9/magescan.phar
 
 
-mv php-reverse-shell GLPIScan NoSQLMap xssmap p0wny-shell csrf-poc-generator trufflehog_3.63.7_linux_arm64.tar.gz tplmap SSTImap XXEinjector endext jwt_tool LFImap wwwolf-php-webshell JS-Scanner phpcc ysoserial commix web/
+
+mv php-reverse-shell GLPIScan NoSQLMap xssmap p0wny-shell csrf-poc-generator trufflehog_3.63.7_linux_arm64.tar.gz tplmap SSTImap XXEinjector endext jwt_tool magescan.phar LFImap wwwolf-php-webshell JS-Scanner phpcc ysoserial commix web/
 
 mkdir system/linux/dirtycow/
 
