@@ -361,6 +361,7 @@ wget https://github.com/trufflesecurity/trufflehog/releases/download/v3.63.7/tru
 
 go install github.com/projectdiscovery/katana/cmd/katana@latest
 go install github.com/hahwul/jwt-hack@latest
+go install github.com/bitquark/shortscan/cmd/shortscan@latest
 sudo wget https://raw.githubusercontent.com/wallarm/jwt-secrets/refs/heads/master/jwt.secrets.list -O /usr/share/wordlists/jwt.secrets.txt
 
 cd kiterunner
