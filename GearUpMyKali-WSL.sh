@@ -487,6 +487,9 @@ sudo cp creds /usr/bin/ && sudo chmod +x /usr/bin/creds
 cd ..
 sudo rm -r DefaultCreds-cheat-sheet
 
+sudo apt install python3-argcomplete
+sudo activate-global-python-argcomplete
+
 clear
 
 
