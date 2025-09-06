@@ -465,6 +465,8 @@ sudo rm -r reconrunner
 pip install sphinx sphinx_rtd_theme
 pip3 install sphinx sphinx_rtd_theme
 
+pipx install git+https://github.com/brightio/penelope
+
 sudo apt autoremove -y 
 
 pipx install smbclientng
