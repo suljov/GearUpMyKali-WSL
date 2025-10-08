@@ -105,6 +105,7 @@ cd ..
 sudo rm -r Certipy
 
 curl https://sliver.sh/install|sudo bash
+sudo apt install mingw-w64
 
 
 sudo wget https://raw.githubusercontent.com/payloadbox/xss-payload-list/master/Intruder/xss-payload-list.txt -O /usr/share/wordlists/xss-payload-list.txt
