@@ -318,6 +318,8 @@ repo_urls=(
     "https://github.com/cobbr/SharpSploit"
     "https://github.com/olafhartong/Invoke-Phant0m"
     "https://github.com/ra1nb0rn/search_vulns"
+    "https://github.com/moonD4rk/HackBrowserData"
+    "https://github.com/djhohnstein/SharpChromium"
 )
 
 # Loop through the repository URLs and clone each one into the current directory
@@ -327,7 +329,7 @@ for url in "${repo_urls[@]}"; do
     git clone "$url"
 done
 
-mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester windapsearch Rubeus PrivescCheck mimikatz nc.exe bloodyAD krbrelayx ntlm_theft PetitPotam CVE-2023-2255 SharpUp Seatbelt impacket Invoke-Phant0m SharpSploit SharpCollection PrecompiledBinaries BloodHound.py adPEAS donut BloodHound powersploit windowsprivchecker system/windows/
+mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester windapsearch HackBrowserData SharpChromium Rubeus PrivescCheck mimikatz nc.exe bloodyAD krbrelayx ntlm_theft PetitPotam CVE-2023-2255 SharpUp Seatbelt impacket Invoke-Phant0m SharpSploit SharpCollection PrecompiledBinaries BloodHound.py adPEAS donut BloodHound powersploit windowsprivchecker system/windows/
 mv linux-exploit-suggester linux-exploit-suggester-2 LinEnum linuxprivchecker system/linux/
 mv Pentest-Cheatsheets search_vulns misc/
 mv TokenTacticsV2 AzSubEnum Oh365UserFinder o365spray o365enum GraphRunner basicblobfinder Graphpython BARK cloud/Azure
