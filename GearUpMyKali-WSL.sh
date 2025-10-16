@@ -325,6 +325,7 @@ repo_urls=(
     "https://github.com/praetorian-inc/PortBender"
     "https://github.com/xct/winpspy"
     "https://github.com/jellever/StreamDivert"
+    "https://github.com/p0dalirius/Coercer"
 )
 
 # Loop through the repository URLs and clone each one into the current directory
@@ -334,7 +335,7 @@ for url in "${repo_urls[@]}"; do
     git clone "$url"
 done
 
-mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester PortBender winpspy StreamDivert windapsearch Whisker HackBrowserData SharpChromium Rubeus PrivescCheck mimikatz nc.exe bloodyAD krbrelayx ntlm_theft PetitPotam CVE-2023-2255 SharpUp Seatbelt impacket Invoke-Phant0m SharpSploit SharpCollection PrecompiledBinaries BloodHound.py adPEAS donut BloodHound powersploit windowsprivchecker system/windows/
+mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester PortBender winpspy StreamDivert Coercer windapsearch Whisker HackBrowserData SharpChromium Rubeus PrivescCheck mimikatz nc.exe bloodyAD krbrelayx ntlm_theft PetitPotam CVE-2023-2255 SharpUp Seatbelt impacket Invoke-Phant0m SharpSploit SharpCollection PrecompiledBinaries BloodHound.py adPEAS donut BloodHound powersploit windowsprivchecker system/windows/
 mv linux-exploit-suggester linux-exploit-suggester-2 LinEnum linuxprivchecker system/linux/
 mv Pentest-Cheatsheets search_vulns misc/
 mv TokenTacticsV2 AzSubEnum Oh365UserFinder o365spray o365enum GraphRunner basicblobfinder Graphpython BARK cloud/Azure
