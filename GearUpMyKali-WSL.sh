@@ -332,6 +332,7 @@ repo_urls=(
     "https://github.com/adrecon/ADRecon"
     "https://github.com/dev-2null/ADCollector"
     "https://github.com/Hackndo/pyGPOAbuse"
+    "https://github.com/000pp/tomcter"
 )
 
 # Loop through the repository URLs and clone each one into the current directory
@@ -394,7 +395,7 @@ wget https://github.com/steverobbins/magescan/releases/download/v1.12.9/magescan
 
 
 
-mv php-reverse-shell GLPIScan NoSQLMap xssmap p0wny-shell csrf-poc-generator trufflehog_3.63.7_linux_arm64.tar.gz tplmap SSTImap XXEinjector endext jwt_tool magescan.phar LFImap wwwolf-php-webshell JS-Scanner phpcc ysoserial commix web/
+mv php-reverse-shell GLPIScan NoSQLMap xssmap p0wny-shell csrf-poc-generator trufflehog_3.63.7_linux_arm64.tar.gz tplmap SSTImap tomcter XXEinjector endext jwt_tool magescan.phar LFImap wwwolf-php-webshell JS-Scanner phpcc ysoserial commix web/
 
 mkdir system/linux/dirtycow/
 
