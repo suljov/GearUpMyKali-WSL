@@ -337,6 +337,7 @@ repo_urls=(
     "https://github.com/Yaxxine7/ASRepCatcher"
     "https://github.com/cube0x0/KrbRelay"
     "https://github.com/Kevin-Robertson/Sharpmad"
+    "https://github.com/c3c/ADExplorerSnapshot.py"
 )
 
 # Loop through the repository URLs and clone each one into the current directory
@@ -346,7 +347,7 @@ for url in "${repo_urls[@]}"; do
     git clone "$url"
 done
 
-mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester PortBender winpspy Sharpmad StreamDivert Coercer pyGPOAbuse KrbRelay ASRepCatcher ADRecon ADCollector windapsearch Whisker HackBrowserData SharpChromium Rubeus PrivescCheck mimikatz nc.exe bloodyAD krbrelayx ntlm_theft PetitPotam CVE-2023-2255 SharpUp Seatbelt impacket Invoke-Phant0m SharpSploit SharpCollection PrecompiledBinaries BloodHound.py adPEAS donut BloodHound powersploit windowsprivchecker system/windows/
+mv Ghostpack-CompiledBinaries Inveigh Windows-Exploit-Suggester PortBender winpspy Sharpmad StreamDivert Coercer pyGPOAbuse KrbRelay ADExplorerSnapshot.py ASRepCatcher ADRecon ADCollector windapsearch Whisker HackBrowserData SharpChromium Rubeus PrivescCheck mimikatz nc.exe bloodyAD krbrelayx ntlm_theft PetitPotam CVE-2023-2255 SharpUp Seatbelt impacket Invoke-Phant0m SharpSploit SharpCollection PrecompiledBinaries BloodHound.py adPEAS donut BloodHound powersploit windowsprivchecker system/windows/
 mv linux-exploit-suggester linux-exploit-suggester-2 LinEnum linuxprivchecker system/linux/
 mv Pentest-Cheatsheets search_vulns evilarc misc/
 mv TokenTacticsV2 AzSubEnum Oh365UserFinder o365spray o365enum GraphRunner basicblobfinder Graphpython BARK cloud/Azure
