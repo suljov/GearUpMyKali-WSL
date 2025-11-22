@@ -435,6 +435,7 @@ rm -r paramspider
 
 pip install git-dumper
 
+sudo pipx install coercer
 
 sudo apt install realtek-rtl88xxau-dkms -y
 sudo apt install dkms -y
