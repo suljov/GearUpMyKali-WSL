@@ -511,6 +511,7 @@ sudo rm -r DefaultCreds-cheat-sheet
 
 sudo apt install python3-argcomplete
 sudo activate-global-python-argcomplete
+pipx install roadrecon
 
 clear
 
