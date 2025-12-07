@@ -254,6 +254,7 @@ python3 -m pipx ensurepath
 
 apt install python3 python3-pip -y
 sudo apt install python3 python3-pip
+go install github.com/fffaraz/fakessh@latest
 
 
 
