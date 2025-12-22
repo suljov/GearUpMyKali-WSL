@@ -498,6 +498,8 @@ nuclei -ud ~/.nuclei-templates
 
 clear
 
+curl -qsL 'https://install.pwndbg.re' | sh -s -- -t pwndbg-gdb
+
 go install -v github.com/xm1k3/cent@latest
 cent -p ~/.cent-nuclei-templates
 
