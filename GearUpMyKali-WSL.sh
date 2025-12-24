@@ -498,6 +498,7 @@ nuclei -ud ~/.nuclei-templates
 
 clear
 
+echo 'set disassembly-flavor intel' > ~/.gdbinit
 curl -qsL 'https://install.pwndbg.re' | sh -s -- -t pwndbg-gdb
 pipx install ropper
 
