@@ -517,6 +517,7 @@ sudo dpkg -i *.deb
 rm *.deb
 
 pipx install pwntools
+sudo apt install python3-pwntools
 
 go install -v github.com/xm1k3/cent@latest
 cent -p ~/.cent-nuclei-templates
