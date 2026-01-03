@@ -518,6 +518,9 @@ rm *.deb
 
 pipx install pwntools
 sudo apt install python3-pwntools
+sudo apt install patchelf
+sudo apt install elfutils 
+
 
 go install -v github.com/xm1k3/cent@latest
 cent -p ~/.cent-nuclei-templates
