@@ -97,6 +97,12 @@ wget https://raw.githubusercontent.com/dafthack/MSOLSpray/refs/heads/master/MSOL
 wget https://raw.githubusercontent.com/BenTamam/PentestPlayground/refs/heads/main/Azure/Scripts/CheckScopedRolePrivileges.ps1 -O cloud/Azure/CheckScopedRolePrivileges.ps1
 wget https://cdn.binary.ninja/installers/binaryninja_free_linux.zip
 
+git clone https://github.com/Bashfuscator/Bashfuscator
+cd Bashfuscator
+python3 setup.py install --user
+cd ..
+sudo rm -r Bashfuscator
+
 unzip binaryninja_free_linux.zip
 mv binaryninja reverse-engineering/ 
 
