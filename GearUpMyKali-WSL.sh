@@ -2,7 +2,6 @@
 
 
 clear
-clear
 echo "Please enter your username:"
 read username
 clear
@@ -12,7 +11,7 @@ sleep 2
 
 clear
 
-mv .cent.yaml ~/.cent.yaml
+mv GearUpMyKali/.cent.yaml ~/.cent.yaml || .cent.yaml ~/.cent.yaml
 echo "## from setup script" >> /home/$username/.zshrc
 echo "## from setup script" >> /home/$username/.bashrc
 git clone https://github.com/jazzpizazz/zsh-aliases
