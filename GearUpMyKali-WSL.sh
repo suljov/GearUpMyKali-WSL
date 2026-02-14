@@ -545,6 +545,7 @@ sudo apt install python3-argcomplete
 sudo activate-global-python-argcomplete
 pipx install roadrecon
 
+sudo apt install cargo
 cargo install rusthound-ce
 
 
