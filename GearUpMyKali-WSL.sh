@@ -14,7 +14,7 @@ clear
 mv GearUpMyKali/.cent.yaml ~/.cent.yaml || .cent.yaml ~/.cent.yaml
 echo "## from setup script" >> /home/$username/.zshrc
 echo "## from setup script" >> /home/$username/.bashrc
-git clone https://github.com/jazzpizazz/zsh-aliases
+git clone https://github.com/jazzpizazz/zsh-aliases ~/zsh-aliases
 echo "source ~/zsh-aliases/aliases.zsh" >> ~/.zshrc
 echo "source ~/zsh-aliases/aliases.zsh" >> ~/.bashrc
 
@@ -466,7 +466,6 @@ sudo rm -r /opt/winpeas/
 clear
 
 go install github.com/ropnop/kerbrute@latest
-sudo apt purge httpx
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 
 
