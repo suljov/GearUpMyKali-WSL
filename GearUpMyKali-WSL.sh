@@ -546,6 +546,9 @@ pipx install roadrecon
 sudo apt install cargo
 cargo install rusthound-ce
 
+echo "export PATH=\$HOME/.cargo/bin:\$PATH" >> ~/.zshrc
+echo "export PATH=\$HOME/.cargo/bin:\$PATH" >> ~/.bashrc
+
 
 clear
 
